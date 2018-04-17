@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -28,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
         Button btn_create = findViewById(R.id.btn_create);
         Button btn_scan = findViewById(R.id.btn_scan);
         iv_pic = findViewById(R.id.iv_pic);
+
+        Log.e("zengkang","第二次提交");
 
         btn_create.setOnClickListener(new View.OnClickListener() {
             @Override
