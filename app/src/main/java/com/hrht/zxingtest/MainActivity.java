@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         iv_pic = findViewById(R.id.iv_pic);
 
         Log.e("zengkang","第二次提交");
+        Log.e("zengkang","创建分支");
 
         btn_create.setOnClickListener(new View.OnClickListener() {
             @Override
