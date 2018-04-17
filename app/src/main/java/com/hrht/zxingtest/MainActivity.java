@@ -42,11 +42,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button btn_scan = findViewById(R.id.btn_scan);
         iv_pic = findViewById(R.id.iv_pic);
 
-        Log.e("zengkang","第二次提交");
-        Log.e("zengkang","创建分支");
-        Log.e("zengkang","测试提交");
-        Log.e("zengkang","再次测试提交");
-        Log.e("zengkang","啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊");
+        Log.e("zengkang","新提交");
+
+
 
         btn_create.setOnClickListener(new View.OnClickListener() {
             @Override
