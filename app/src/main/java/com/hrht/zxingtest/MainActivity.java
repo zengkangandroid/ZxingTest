@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         Log.e("zengkang","第二次提交");
         Log.e("zengkang","创建分支");
         Log.e("zengkang","测试提交");
+        Log.e("zengkang","再次测试提交");
 
         btn_create.setOnClickListener(new View.OnClickListener() {
             @Override
